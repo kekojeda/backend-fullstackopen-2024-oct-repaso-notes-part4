@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes/
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imtla28iLCJpZCI6IjY3MjhkNzI5YmEwM2YyMzhiY2YyYTQ4MCIsImlhdCI6MTczMDczMTQxM30.G-I1twY2GO78SW8uZXdgBL4AzZH9jzgoPa_rV3BjscY
+
+{
+    "content": "single note with user keko",
+    "important": false
+}
